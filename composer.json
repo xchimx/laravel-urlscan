@@ -1,0 +1,43 @@
+{
+    "name": "xchimx/laravel-urlscan",
+    "description": "This is a package for interaction with the Urlscan.io API",
+    "keywords": [
+        "laravel",
+        "laravel-urlscan",
+        "urlscan",
+        "schottstaedt.net",
+        "Tobias Schottstädt"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Tobias Schottstädt",
+            "email": "code@schottstaedt.net",
+            "homepage": "https://www.schottstaedt.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Xchimx\\LaravelUrlScan\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Xchimx\\LaravelUrlScan\\UrlScanServiceProvider"
+            ],
+            "aliases": {
+                "UrlScan": "Xchimx\\LaravelUrlScan\\UrlScanFacade"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+
+    "require": {
+        "php": "^8.0|^8.1|^8.2|^8.3",
+        "laravel/framework": "^9.0|^10.0|^11.0",
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
