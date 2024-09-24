@@ -4,7 +4,7 @@ This is a package for interaction with the Urlscan.io API
 
 - [Laravel](https://laravel.com/)
 - [Urlscan](https://urlscan.io/)
-- [Schottstaedt](https:/www.schottstaedt.net/)
+- [Schottstaedt](https://www.schottstaedt.net/)
 
 ## Installation
 You can install the package via composer:
@@ -26,7 +26,7 @@ Add the Service Provider and Facade to your ```app.php``` config file if you're 
 
 'aliases' => [
     ...
-    'UrlScan' => Xchimx\LaravelUrlScan\UrlScanFacade::class
+    'UrlScan' => Xchimx\LaravelUrlScan\UrlScan::class
     ...
 ];
 ```
@@ -45,7 +45,7 @@ URLSCAN_API="YOUR-API-KEY-SET-HERE"
 
 make sure you import Urlscan
 ```php
-use UrlScan;
+use Xchimx\LaravelUrlScan\UrlScan;
 ```
 ### User
 ```php

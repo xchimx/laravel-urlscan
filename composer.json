@@ -1,6 +1,7 @@
 {
     "name": "xchimx/laravel-urlscan",
     "description": "This is a package for interaction with the Urlscan.io API",
+    "version": "1.0.1",
     "keywords": [
         "laravel",
         "laravel-urlscan",
@@ -29,7 +30,7 @@
                 "Xchimx\\LaravelUrlScan\\UrlScanServiceProvider"
             ],
             "aliases": {
-                "UrlScan": "Xchimx\\LaravelUrlScan\\UrlScanFacade"
+                "UrlScan": "Xchimx\\LaravelUrlScan\\UrlScan"
             }
         }
     },

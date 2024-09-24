@@ -4,7 +4,7 @@ namespace Xchimx\LaravelUrlScan;
 
 use Illuminate\Support\Facades\Facade;
 
-class UrlScanFacade extends Facade
+class UrlScan extends Facade
 {
     /**
      * Get the registered name of the component.
