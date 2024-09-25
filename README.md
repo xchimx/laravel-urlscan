@@ -95,6 +95,6 @@ $getSearchResults =  UrlScan::search()->search($query);
     }
 ```
 
-
+- [Detailed Article about this package]([https://www.schottstaedt.net/](https://www.schottstaedt.net/laravel-urlscan-api-paket))
 
 
