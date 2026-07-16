@@ -5,7 +5,7 @@ This is a package for interaction with the Urlscan.io API
 - [Laravel](https://laravel.com/)
 - [Urlscan](https://urlscan.io/)
 - [Schottstaedt](https://www.schottstaedt.net/)
-- [Detailed article about this package](https://www.schottstaedt.net/laravel-urlscan-api-paket/)
+- [Detailed article about this package](https://www.schottstaedt.net/en/laravel-urlscan-api-packages)
 
 
 ## Installation
